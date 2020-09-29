@@ -1,0 +1,17 @@
+<This is git code summary>
+
+1. move
+  '''
+  $ cd documents :  현재 폴더의 하위폴더인 documents 폴더로 이동
+  $ cd /c/workspace : 절대경로 /c/workspace 로 이동
+  $ cd . : 현재 디렉토리로 이동
+  $ cd .. : 상위 폴더로 이동
+  $ pwd : 현재 위치 확인
+  $ ls : 현재 디렉토리 안의 폴더, 파일을 보여줌
+  $ ls -al 또는 ll : 현재 디렉토리 안의 폴더, 파일의 chmod(권한), 생성일시 등의 정보를 함꼐 보여줌
+  $ clear : 화면 지우기
+
+  '''
+
+
+
