@@ -1,4 +1,0 @@
-# git code summary
-## 1. basic
-### 1-1. move
-      $ cd <dir name> : 현재 디렉토리의 하위 디렉토리인 <dir name> 으로 이동
