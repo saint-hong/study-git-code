@@ -90,12 +90,6 @@ $ ps -e | grep note : jupyter notebook 의 process id 확인
 $ kill -9 12345 : 백그라운드에서 실행된process id 종료, jupyter notebook 접속 종료
 ```
 
-### 2) chmod
-```
-
-```
-
-
 
 
 
