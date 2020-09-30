@@ -18,15 +18,13 @@
 
 ### 3) 원리
      - snap shot : git 이 데이터를 관리하는 방법으로 프로젝트의 버전이 바뀌는 시간순으로 스냅샷을 저장하는 방식이다. 
-        프로젝트의 버전이 변경되어 새로 저장되는 순간마다, 전체 파일을 저장하는데 버전이 바뀌지 않은 파일은 
-        새로 저장하지 않고 이전 상태의 링크만 저장한다. 다른 VCS 프로그램들은 데이터를 파일의 목록으로 관리하고, 
-        버전이 바뀌는 파일들만 시간순으로 관리한다. 
-     - checksum : git 에서 사용하는 가장 기본적인 데이터 단위. SHA-1 해시를 사용하여 체크섬을 만들고 40자 길이의 16 진수 
-        문자열로 만들어진다. git 은 모든 것을 이 체크섬으로 식별한다.
-     - git directory (repository) : 프로젝트의 메타데이터와 데이터베이스를 저장하는 곳. 다른 컴퓨터, 서버의 저장소를 
-        Clone 할 때 git directory가 생성된다. HEAD 라고 부르기도 함.
-     - working directory : 워킹트리, 프로젝트의 특정 버전을 checkout 한 것. git direcotry에 저장된 데이터베이스에서 
-        파일을 가져와서 워킹 트리를 만든다. 
+        프로젝트의 버전이 변경되어 새로 저장되는 순간마다, 전체 파일을 저장하는데 버전이 바뀌지 않은 파일은 새로 저장하지 않고 이전 상태의 링크만 저장한다. 
+        다른 VCS 프로그램들은 데이터를 파일의 목록으로 관리하고, 버전이 바뀌는 파일들만 시간순으로 관리한다. 
+     - checksum : git 에서 사용하는 가장 기본적인 데이터 단위. SHA-1 해시를 사용하여 체크섬을 만들고 40자 길이의 16 진수 문자열로 만들어진다. 
+        git 은 모든 것을 이 체크섬으로 식별한다.
+     - git directory (repository) : 프로젝트의 메타데이터와 데이터베이스를 저장하는 곳. 다른 컴퓨터, 서버의 저장소를 Clone 할 때 
+        git directory가 생성된다. HEAD 라고 부르기도 함.
+     - working directory : 워킹트리, 프로젝트의 특정 버전을 checkout 한 것. git direcotry에 저장된 데이터베이스에서 파일을 가져와서 워킹 트리를 만든다. 
      - staging area : 단순한 파일형태로 커밋할 파일에 대한 정보를 저장함. git directory 안에 있다. index 라고도 한다.
      - Modified : 파일을 수정했지만 아직 로컬 데이터베이스에 커밋하지 않은 것.
      - staged : 수정한 파일을 곧 커밋할 것이라고 표시한 상태.
@@ -39,4 +37,4 @@
     - staging area 에 있는 파일들을 커밋해서 git directory에 영구적인 스냅샷으로 저장.
     - (checkout) working tree -> modified -> (staged) staging area -> (committed) git directory -> (checkout) working tree -> repeat
 
-#### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고(https://git-scm.com/book/en/v2) 
+#### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고 (https://git-scm.com/book/en/v2) 
