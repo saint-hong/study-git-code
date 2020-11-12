@@ -17,6 +17,8 @@ VCS -> CVCS -> DVCS
 ```
 "빠른속도, 단순한 구조, 비선형적인 개발(수천개의 동시 다발적 브랜치), 완벽한 분산, 대형프로젝트에도 유용하게 사용가능"
 ```
+![distributed](./Image/distributed.png)
+
 ### 2) 기능
 ```
 ① server computer 와 local computer 의 다대다 관계에서 송수신 가능
