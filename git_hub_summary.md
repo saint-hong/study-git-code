@@ -4,7 +4,7 @@
 ## 1. what is git?
 
 ### 1) 개념   
-- DVCS : 
+- DVCS
 ```
 Distributed version control system, 분산 버전 관리 시스템
 ```
@@ -77,6 +77,4 @@ VCS -> CVCS -> DVCS
 ![areas](./Image/areas.png)
 
 #### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고 (https://git-scm.com/book/en/v2)
-
-
 
