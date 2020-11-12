@@ -74,7 +74,7 @@ VCS -> CVCS -> DVCS
 ⑤ (checkout) working tree -> modified -> (staged) staging area -> (committed) git directory -> (checkout) working tree -> repeat
 ```
 ### Git Areas
-![areas](../Image/areas.png)
+![areas](./Image/areas.png)
 
 #### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고 (https://git-scm.com/book/en/v2)
 
