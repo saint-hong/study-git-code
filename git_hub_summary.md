@@ -73,4 +73,10 @@ VCS -> CVCS -> DVCS
 ④ staging area 에 있는 파일들을 커밋해서 git directory에 영구적인 스냅샷으로 저장.
 ⑤ (checkout) working tree -> modified -> (staged) staging area -> (committed) git directory -> (checkout) working tree -> repeat
 ```
-#### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고 (https://git-scm.com/book/en/v2) 
+### Git Areas
+![areas](../Image/areas.png)
+
+#### 참고 : git 사이트의 유용한 레퍼런스 및 웹페이지 참고 (https://git-scm.com/book/en/v2)
+
+
+
